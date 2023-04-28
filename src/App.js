@@ -5,7 +5,7 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <div className='font-lato'>
+    <div className='font-lato bg-black-bg'>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
       </Routes>
